@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from 'react';
-import { styles } from './Style';
+import { styles } from './LoginStyle';
 import { Button, Input, message } from 'antd';
 import { CarOutlined, KeyOutlined, MailOutlined, UserOutlined } from '@ant-design/icons';
 
