@@ -20,13 +20,13 @@ function Login() {
 
       <div className={inner}>
         <h1 className={heading}>Login <CarOutlined /></h1>
-        <Input className='mb-4' size="large" placeholder="Email" type='text' prefix={<MailOutlined />} value={email} onChange={(e) => {
+        <Input className='mb-4 py-4' size="large" placeholder="Email" type='text' prefix={<MailOutlined />} value={email} onChange={(e) => {
           setEmail(e.target.value)
         }} />
-        <Input size="large" className='mb-4' placeholder="Password" type='password' prefix={<KeyOutlined />} value={password} onChange={(e) => {
+        <Input size="large" className='mb-4 py-4' placeholder="Password" type='password' prefix={<KeyOutlined />} value={password} onChange={(e) => {
           setPassword(e.target.value)
         }} />
-        <Button type='primary' className="bg-blue-950 w-full" onClick={(e) => {
+        <Button type='primary' className="bg-blue-950 w-full py-8 flex items-center justify-center text-lg" onClick={(e) => {
           signin();
         }}>Login</Button>
       </div>
