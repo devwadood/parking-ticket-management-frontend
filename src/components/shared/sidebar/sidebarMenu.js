@@ -9,19 +9,19 @@ export const menu=[
     },
     {
         key:2,
-        url:"/all-tickets",
+        url:"/tickets",
         icon:<UnorderedListOutlined />,
         title:"All Ticket"
     },
     {
         key:3,
-        url:"/generate-ticket",
+        url:"/ticket/generate",
         icon:<QrcodeOutlined />,
         title:"Generate Ticket"
     },
     {
         key:4,
-        url:"/receive-ticket",
+        url:"/ticket/verify",
         icon:<CarryOutOutlined />,
         title:"Confirm Ticket"
     },
